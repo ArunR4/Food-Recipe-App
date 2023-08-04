@@ -1,0 +1,31 @@
+.item{
+    margin: 10px 25px;
+    cursor: pointer;
+}
+
+.item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.item p{
+    font-weight: 500;
+    max-width: 200px;
+    text-align: center;
+    margin: 12px 0px;
+}
+
+@media only screen and (max-width: 670px){
+    .item{
+        margin: 6px 10px;
+    }
+    
+}
+@media only screen and (max-width: 590px){
+    .item{
+        margin: 6px 4px;
+    }
+    
+}

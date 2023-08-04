@@ -1,0 +1,56 @@
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 24px;
+}
+
+.appSearchForm{
+    margin-top: 18px;
+}
+
+.input,.btn{
+    font-size: 15px;
+    margin: 5px;
+    padding: 6px 16px;
+    border-radius: 4px;
+}
+
+.input{
+    min-width: 175px;
+    max-height: 100vw;
+}
+
+.btn{
+    background-color: rgb(108, 108, 243);
+    color: white;
+    transition-duration: 150ms;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.items{
+    width: 75vw;
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media only screen and (max-width: 670px){
+    .items{
+        width: 100vw;
+    }
+}
+
+.dropDown{
+    padding: 7px 8px;
+    margin-left: 6px;
+    border-radius: 4px;
+}
